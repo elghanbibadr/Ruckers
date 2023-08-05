@@ -51,7 +51,7 @@ a {
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    max-width: min(800px, 100%);
+    /* max-width: min(800px, 100%); */
     /* Set the maximum width to 800px or 100% of the container, whichever is smaller */
     margin-inline: auto;
 }
