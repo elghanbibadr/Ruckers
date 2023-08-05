@@ -57,8 +57,17 @@ a {
 }
 
 
+img {
+    object-fit: cover;
+}
+
 
 
 .menu-item {
+    text-align: center;
+}
+
+
+h2 {
     text-align: center;
 }
