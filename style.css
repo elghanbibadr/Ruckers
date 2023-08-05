@@ -1,5 +1,6 @@
 body {
     font-family: 'Rubik', sans-serif;
+    background-color: #fdf2e9;
     padding: 0;
     margin: 0 !important;
 }
@@ -7,9 +8,6 @@ body {
 
 
 
-header {
-    background-color: #fdf2e9;
-}
 
 
 ul {
@@ -42,14 +40,7 @@ p {
     height: 20px;
 }
 
-/* .nav ul {
-    display: none;
-} */
 
-
-/* .closeIcon {
-    display: none;
-} */
 
 .nav__link {
     color: #333;
@@ -72,6 +63,8 @@ p {
 .nav__list a:hover {
     color: #cf711f;
 }
+
+
 
 .open {
     display: block;
@@ -101,4 +94,104 @@ p {
     .nav img {
         display: none;
     }
+}
+
+
+/* hero */
+
+
+
+.hero {
+    padding: 20px;
+    margin-top: 40px;
+    max-width: 1300px;
+    margin-inline: auto;
+}
+
+
+.hero__desc {
+    text-align: center;
+}
+
+.hero button {
+    background-color: #e67e22;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-family: inherit;
+    /* transition: background-color 0.3s; */
+    transition: all 0.3s;
+}
+
+.hero button:hover {
+    background-color: #cf711f;
+}
+
+.hero__outline {
+
+    color: #333;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-size: 44px
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero__outline {
+        font-size: 37px
+    }
+
+    .hero p {
+        font-size: 16px !important;
+    }
+
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+    /* margin-bottom: 4.8rem; */
+}
+
+.hero__img {
+    width: 80%;
+    display: block;
+    margin-inline: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        align-items: center;
+        gap: 40px;
+        justify-items: center;
+    }
+
+    .hero__desc {
+        text-align: left;
+    }
+}
+
+
+/* resuable classses */
+.link {
+    color: #333;
+    font-weight: 600;
+    transition: color .4s ease;
+}
+
+
+
+.link:hover {
+    color: #cf711f;
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Rucker's Steakhouse</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/menu.css">
 </head>
 
@@ -13,9 +14,9 @@
         <h1>John Rucker's Steakhouse</h1>
         <nav>
             <ul class="menu-list">
-                <li><a href="index.html">Menu</a></li>
-                <li><a href="beer_and_wine.html">Beer & Wine</a></li>
-                <li><a href="/dessert.html">Desserts</a></li>
+                <li><a class="link" href="index.html">Menu</a></li>
+                <li><a class="link" href="beer_and_wine.html">Beer & Wine</a></li>
+                <li><a class="link" href="/dessert.html">Desserts</a></li>
             </ul>
         </nav>
     </header>
@@ -23,45 +24,61 @@
     <main>
         <section>
             <div class="menu-header">
-                <h2>Menu</h2>
+                <h2> Our Menu</h2>
                 <p>Check out our variety of dishes and their appropriate pricing:</p>
             </div>
             <ul class="menu">
                 <div class="menu-item">
                     <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
                         alt="steak dinner " />
-                    <h3>steak dinner</h3>
-                    <p>30$</p>
+                    <div class="menuItem__desc">
+                        <h3>steak dinner</h3>
+                        <p class="priceBox">30$</p>
+                    </div>
                 </div>
                 <div class="menu-item">
                     <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
                         alt="steak dinner " />
-                    <h3>T-bone</h3>
-                    <p>60$</p>
+                    <div class="menuItem__desc">
+                        <h3>T-bone</h3>
+                        <p class="priceBox">60$</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
+                        alt="Sirloin" />
+
+                    <div class="menuItem__desc">
+                        <h3>Sirloin</h3>
+                        <p class="priceBox">60$</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
+                        alt="Grillen chicken" />
+
+                    <div class="menuItem__desc">
+                        <h3>Grillen Chiken</h3>
+                        <p class="priceBox">45$</p>
+                    </div>
                 </div>
                 <div class="menu-item">
                     <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
                         alt="steak dinner " />
-                    <h3>Sirloin</h3>
-                    <p>25$</p>
+
+                    <div class="menuItem__desc">
+                        <h3>Fish</h3>
+                        <p class="priceBox">35$</p>
+                    </div>
                 </div>
                 <div class="menu-item">
                     <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
                         alt="steak dinner " />
-                    <h3>Grillen Chiken</h3>
-                    <p>45$</p>
-                </div>
-                <div class="menu-item">
-                    <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
-                        alt="steak dinner " />
-                    <h3>Fish</h3>
-                    <p>35$</p>
-                </div>
-                <div class="menu-item">
-                    <img class="menu-image" src='/images/sebastian-coman-photography-CRoAeTh5S_I-unsplash.jpg'
-                        alt="steak dinner " />
-                    <h3>Salades</h3>
-                    <p>15$</p>
+
+                    <div class="menuItem__desc">
+                        <h3>Salades</h3>
+                        <p class="priceBox">15$</p>
+                    </div>
                 </div>
             </ul>
             <a href="specials.html">check our specials </a>
