@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Sacramento&display=swap');
+
+body {
+    color: white;
+    background-color: #111;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+header {
+    text-align: center;
+}
+
+.menu-header {
+    text-align: center;
+}
+
+h1 {
+    color: white !important;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.menu-list {
+    display: flex !important;
+    justify-content: center;
+}
+
+.menu-list li {
+    margin-inline: 10px;
+    margin-block: 2rem;
+}
+
+.menu-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: grid !important;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: min(800px, 100%);
+    /* Set the maximum width to 800px or 100% of the container, whichever is smaller */
+    margin-inline: auto;
+}
+
+
+
+
+.menu-item {
+    text-align: center;
+}
