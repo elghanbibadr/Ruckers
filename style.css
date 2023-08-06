@@ -3,6 +3,7 @@ body {
     background-color: #fdf2e9;
     padding: 0;
     margin: 0 !important;
+    position: relative;
 }
 
 
@@ -199,5 +200,6 @@ p {
 
 
 footer {
-    margin-top: 100px;
+
+    margin-top: 300px;
 }

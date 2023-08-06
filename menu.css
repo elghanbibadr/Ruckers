@@ -1,11 +1,3 @@
-header {
-    text-align: center;
-}
-
-.menu-header {
-    text-align: center;
-}
-
 h1 {
     color: #333 !important;
 }
@@ -23,8 +15,7 @@ h1 {
 }
 
 .menu-image {
-    /* height: 200px;
-    width: 200px; */
+
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -45,9 +36,7 @@ img {
     padding: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 4rem;
-    /* max-width: min(800px, 100%); */
     grid-template-rows: 300px !important;
-    /* Set the maximum width to 800px or 100% of the container, whichever is smaller */
     margin-inline: auto;
 }
 
