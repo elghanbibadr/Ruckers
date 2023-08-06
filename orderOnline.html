@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Online</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="orderOnline.css">
 </head>
 
@@ -17,7 +18,7 @@
 
             <form>
                 <div class="formbold-form-title">
-                    <h2 class="">Order now</h2>
+                    <h2 class="orderNowTitle">Order now</h2>
 
                 </div>
 
@@ -26,22 +27,25 @@
                         <label for="firstname" class="formbold-form-label">
                             First name
                         </label>
-                        <input type="text" name="firstname" id="firstname" class="formbold-form-input" />
+                        <input type="text" name="firstname" id="firstname" class="formbold-form-input"
+                            placeholder="your name" />
                     </div>
                     <div>
                         <label for="lastname" class="formbold-form-label"> Last name </label>
-                        <input type="text" name="lastname" id="lastname" class="formbold-form-input" />
+                        <input type="text" name="lastname" id="lastname" class="formbold-form-input"
+                            placeholder="last name" />
                     </div>
                 </div>
 
                 <div class="formbold-input-flex">
                     <div>
                         <label for="email" class="formbold-form-label"> Email </label>
-                        <input type="email" name="email" id="email" class="formbold-form-input" />
+                        <input type="email" name="email" id="email" class="formbold-form-input" placeholder="email" />
                     </div>
                     <div>
                         <label for="phone" class="formbold-form-label"> Phone number </label>
-                        <input type="text" name="phone" id="phone" class="formbold-form-input" />
+                        <input type="text" name="phone" id="phone" class="formbold-form-input"
+                            placeholder="phone number" />
                     </div>
                 </div>
 
@@ -49,9 +53,10 @@
                     <label for="address" class="formbold-form-label">
                         Credit card number
                     </label>
-                    <input type="text" name="creditCardNumber" id="creditCardNumber" class="formbold-form-input" />
+                    <input type="text" name="creditCardNumber" id="creditCardNumber" class="formbold-form-input"
+                        placeholder="credit card number" />
                 </div>
-                <label for="address" class="formbold-form-label">
+                <label for="expirationDate" class="formbold-form-label">
                     Credit card expiration date
                 </label>
                 <div class="expirationDateBox-wrraper">
@@ -116,7 +121,8 @@
                     <label for="address" class="formbold-form-label">
                         CSV number
                     </label>
-                    <input type="text" name="csvNumber" id="csvNumber" class="formbold-form-input" />
+                    <input type="text" name="csvNumber" id="csvNumber" class="formbold-form-input"
+                        placeholder="csv number" />
                 </div>
                 <button class="formbold-btn">Order Now</button>
             </form>

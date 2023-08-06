@@ -2,21 +2,7 @@
     margin-bottom: 15px;
 }
 
-.formbold-relative {
-    position: relative;
-}
 
-.formbold-opacity-0 {
-    opacity: 0;
-}
-
-.formbold-stroke-current {
-    stroke: currentColor;
-}
-
-#supportCheckbox:checked~div span {
-    opacity: 1;
-}
 
 .formbold-main-wrapper {
     display: flex;
@@ -28,14 +14,18 @@
 .formbold-form-wrapper {
     margin: 0 auto;
     max-width: 570px;
-    width: 100%;
-    background: white;
+    margin-top: 3rem !important;
+    border-radius: 11px;
+    background-color: #eb984e !important;
     padding: 40px;
 }
 
-.formbold-img {
-    margin-bottom: 45px;
+
+#creditCardNumber,
+#csvNumber {
+    width: 80% !important;
 }
+
 
 .formbold-form-title {
     margin-bottom: 30px;
@@ -45,28 +35,33 @@
     font-weight: 600;
     font-size: 28px;
     line-height: 34px;
-    color: #07074d;
 }
 
-.formbold-form-title p {
-    font-size: 16px;
-    line-height: 24px;
-    color: #536387;
-    margin-top: 12px;
+
+.orderNowTitle {
+    color: #45260a !important;
 }
 
 .formbold-input-flex {
     display: flex;
     gap: 20px;
+    flex-direction: column;
     margin-bottom: 15px;
+    margin-right: 2rem !important;
+}
+
+@media screen and (min-width: 768px) {
+    .formbold-input-flex {
+        flex-direction: row;
+        gap: 55px;
+    }
 }
 
 .formbold-input-flex>div {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .formbold-form-input {
-    text-align: center;
     width: 100%;
     padding: 13px 22px;
     border-radius: 5px;
@@ -80,55 +75,21 @@
 }
 
 .formbold-form-input:focus {
-    border-color: #6a64f1;
+    border-color: #45260a;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 .formbold-form-label {
-    color: #536387;
+    color: #45260a;
+    font-weight: 600;
     font-size: 14px;
     line-height: 24px;
     display: block;
     margin-bottom: 10px;
 }
 
-.formbold-checkbox-label {
-    display: flex;
-    cursor: pointer;
-    user-select: none;
-    font-size: 16px;
-    line-height: 24px;
-    color: #536387;
-}
 
-.formbold-checkbox-label a {
-    margin-left: 5px;
-    color: #6a64f1;
-}
 
-.formbold-input-checkbox {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
-
-.formbold-checkbox-inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    margin-right: 16px;
-    margin-top: 2px;
-    border: 0.7px solid #dde3ec;
-    border-radius: 3px;
-}
 
 .formbold-btn {
     font-size: 16px;
@@ -136,9 +97,10 @@
     padding: 14px 25px;
     border: none;
     font-weight: 500;
-    background-color: #6a64f1;
+    background-color: #45260a;
     color: white;
     cursor: pointer;
+    font-weight: bold;
     margin-top: 25px;
 }
 
@@ -165,26 +127,7 @@
     outline: none;
 }
 
-.box::before {
-    content: "\f13a";
-    font-family: FontAwesome;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20%;
-    height: 100%;
-    text-align: center;
-    font-size: 28px;
-    line-height: 45px;
-    color: rgba(255, 255, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.1);
-    pointer-events: none;
-}
-
-.box:hover::before {
-    color: rgba(255, 255, 255, 0.6);
-    background-color: rgba(255, 255, 255, 0.2);
-}
+/*  */
 
 .box select option {
     padding: 30px;
