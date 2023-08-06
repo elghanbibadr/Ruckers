@@ -3,6 +3,9 @@ h1 {
 }
 
 
+.menu-header {
+    text-align: center;
+}
 
 .menu-list {
     display: flex !important;
@@ -36,11 +39,23 @@ img {
     padding: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 4rem;
-    grid-template-rows: 300px !important;
+    grid-template-rows: 300px 300px 300px 300px !important;
     margin-inline: auto;
 }
 
+@media screen and (min-width: 566px) {
+    .menu {
+        grid-template-rows: 300px 300px !important;
 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        grid-template-rows: 300px !important;
+
+    }
+}
 
 
 
