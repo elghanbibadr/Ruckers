@@ -57,7 +57,12 @@ img {
     }
 }
 
+@media screen and (min-width: 768px) {
+    #gridMenu {
+        grid-template-rows: 300px 300px !important;
 
+    }
+}
 
 .menu-item {
     text-align: center;
