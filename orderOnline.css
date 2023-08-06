@@ -42,6 +42,10 @@
     color: #45260a !important;
 }
 
+main {
+    padding: 10px !important;
+}
+
 .formbold-input-flex {
     display: flex;
     gap: 20px;

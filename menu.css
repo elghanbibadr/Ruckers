@@ -82,17 +82,31 @@ h3 {
 .priceBox {
     background-color: #cf711f;
     color: white;
-    padding: 4px;
+    padding: 5px;
     font-weight: bold;
     border-radius: 3px;
+    width: 40px;
 }
 
 /* 
 /* beer and wine Page */
-/* .menu-item {
-    height: 60% !important;
-    width: 80% !important;
-}  */
+
+
+.pageTitle {
+    font-size: 1rem !important;
+}
+
+@media screen and (min-width:926px) {
+    .pageTitle {
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pageTitle {
+        font-size: 1.4rem !important;
+    }
+}
 
 .ourWineTitle {
     margin-top: 5rem;

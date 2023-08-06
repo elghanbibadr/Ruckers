@@ -10,14 +10,21 @@
 </head>
 
 <body>
-    <header>
-        <h1>Rucker's Desserts</h1>
-        <nav>
-            <ul>
-                <li><a href="menu.html" class="link">Back to Menu</a></li>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="pageTitle">Rucker's Desserts</h1>
+            <div>
+                <img class="hamburgerMenu" src="/images/habmurgerMenu.svg" alt="habmurgerMenu">
+                <img class="closeIcon hidden" src="/images/closeIcon.svg" alt="habmurgerMenu">
+            </div>
+            <ul class="hidden nav__list">
+                <li><a class="nav__link " href=" /index.html">Home Page</a></li>
+                <li><a class="nav__link" href="#">(602) 789-5672</a></li>
+                <li><a class="nav__link" href="#">contact us(staff@ruckers.com)</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <h2>Dessert List</h2>
         <ul class="menu">
@@ -55,5 +62,6 @@
         <p>&copy; 2023 Rucker's Steakhouse. All rights reserved.</p>
     </footer>
 </body>
+<script src="/main.js"></script>
 
 </html>
